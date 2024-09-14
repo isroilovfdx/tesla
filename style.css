@@ -1,0 +1,108 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+th {
+    background-color: #ffcc00; /* Yellow for header */
+}
+td {
+    background-color:rgb(112, 121, 152);
+}
+td:nth-child(1) {
+    background-color: #00ff00; /* Green for the first column */
+}
+tr:first-child th {
+    background-color: #ff0000; /* Red for the top row header */
+}
+
+
+.q1{
+    color: rgb(11, 0, 128);
+}
+.q2{
+    color: red;
+}
+.q3{
+    color: yellow;
+}
+.q4{
+    color: green;
+}
+.xz{
+    display: flex;
+    align-items: start;
+    justify-content: start;
+}
+.xz1{
+  background-color: yellow;
+}
+
+.span{
+    background-color: yellow;
+}
+
+.btn{
+    background-color: #00ff00;
+    border: none !important;
+    width: 200px;
+    height: 30px;
+
+}
+
+.section {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    padding: 20px;
+    width: 300px; /* Set width according to your design */
+    margin: auto; /* Center the section horizontally */
+    ;
+    text-align: left !important;;
+    margin-right: 1200px;
+}
+
+.ulxz {
+    list-style-type: none; /* Removes bullet points */
+    padding: 0; /* Removes padding */
+    margin: 0 0 10px 0; /* Adds some margin below the list */
+
+}
+
+.lixz {
+    font-weight: bold; /* Makes list item bold */
+    margin-bottom: 10px; /* Space between the title and the first span */
+    color: #00ff00;
+}
+
+.span1 {
+    display: block; /* Each span on a new line */
+    margin-bottom: 5px; /* Space between the spans */
+    color: #ff0000;
+}
+.span2 {
+    display: block; /* Each span on a new line */
+    margin-bottom: 5px; /* Space between the spans */
+    color: #ffcc00;
+}
+.span3 {
+    display: block; /* Each span on a new line */
+    margin-bottom: 5px; /* Space between the spans */
+    color: #00ff00;
+}
+.span4 {
+    display: block; /* Each span on a new line */
+    margin-bottom: 5px; /* Space between the spans */
+    color: grey;
+}
+.tesla{
+    color: red;
+}
